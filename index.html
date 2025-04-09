@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Η Αποστολή του Στιτς</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>Η Αποστολή του Στιτς: Σώσε τους αριθμούς!</h1>
+    <img src="assets/stitch.png" alt="Stitch" class="stitch" />
+    <p id="question">Ποια είναι η προπαίδεια του 2 × 3;</p>
+    <div class="answers">
+      <button onclick="checkAnswer(this)">5</button>
+      <button onclick="checkAnswer(this)">6</button>
+      <button onclick="checkAnswer(this)">9</button>
+    </div>
+    <p id="feedback"></p>
+    <button onclick="newQuestion()">Επόμενη Ερώτηση</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
